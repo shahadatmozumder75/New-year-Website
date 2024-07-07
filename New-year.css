@@ -1,0 +1,173 @@
+*{margin:0;
+    padding:0;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    
+    .font{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .inter{
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+      }
+     .margin{
+        margin:120px 35px;
+     }
+
+
+
+
+
+
+
+
+
+      /* header-section */ 
+    
+      .header{
+        background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+        
+        url("images/Banner\ Image.png");
+        background-position: 0% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:1170px;
+        margin: 0 auto;
+        margin-top: 35px;
+        border-radius: 20px;
+      }
+      p.header_content_sub_title.font {
+        color: #ffffffcf;
+        font-size: 25px;
+    }
+    
+    h1.header_content_title.font {
+        color: white;
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    
+    .header_content {
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        padding: 150px 300px;
+    }
+
+
+    /* sell section */
+
+
+
+
+    #sell .sell_container  h1 {
+        color: #FF0000;
+        font-size: 50px;
+    }
+    
+    .sell_container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section#sell {
+        max-width: 770px;
+        margin: auto;
+        display: flex;
+        margin-top: 120px;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+
+    #sell .sell_container_desc h6 {
+        color: #FF0000;
+        font-size: 15px;
+    }
+    
+    #sell .sell_container_desc h3 {
+        font-size: 33px;
+    }
+img {
+    width: 100%;
+}
+
+.sell_image {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.sell_container_desc {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/* party section */
+
+
+
+
+#party{
+    max-width: 1170px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* margin-bottom: 120px; */
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    align-items: center;
+}
+
+.party_container{
+    padding: 126px 0px 125px 105px;
+    /* line-height: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+#party .party_container h1{
+    max-width: 450px;
+    font-size: 50px;
+    color: white;
+}
+#party .party_container p.party_desc{
+    font-size: 16px;
+    max-width: 700px;
+    color:white;
+    opacity: 0.7;
+}
+#party .party_container .join{
+    font-size: 20px;
+    padding-left: 40px;
+    color:white;
+  
+}
+.party_image{
+    max-width: 250px;
+    padding-top: 60px;
+    padding-right: 102px;
+    padding-bottom: 40px;
+}
