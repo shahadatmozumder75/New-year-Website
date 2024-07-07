@@ -456,3 +456,127 @@ p.portfolio_content_p {
     flex-direction: column;
     gap: 15px;
 }
+
+
+/* SUbscribe_section */
+
+#subscribe{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 20px;
+    
+}
+
+.subscribe_container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 80px 0px;
+}
+
+.sub_image {
+    width: 120px;
+}
+
+h2.sub_h2.font {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p.sub_p.inter {
+    font-size: 14px;
+    opacity: 0.7;
+    text-align: center;
+    width: 600px;
+}
+.sub_input input {
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+input[type="email"] {
+    position: relative;
+    /* max-width: 500px; */
+    width: 380px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    /* left: 20px; */
+    /* top: 29995px; */
+    translate: transform(93px,112px);
+    transform: translate(-131px, 0px);
+    font-size: 14px;
+    border-top-left-radius: 0px;
+    font-weight: bolder;
+    border-bottom-left-radius: 0px;
+    color: wheat;
+    /* padding-left: 34px; */
+    /* max-width: 228px; */
+    width: 130px;
+    /* right: 425px; */
+    background: #ff0e00ba;
+}
+
+input[type="submit"] {}
+
+
+/* footer */
+footer{
+    background-color: black;
+    color:white;
+}
+
+.footer_container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 0px;
+}
+
+.wrapper_1{
+    width:375px;
+    opacity: 0.9;
+}
+.wrapper_2{
+    width: 190px;
+    opacity: 0.9;
+}
+.container_wrapper {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+}
+
+p.last_1 {
+    width: 500px;
+}
+
+p.last_2 {width: 100px;}
+
+.footer_container {}
